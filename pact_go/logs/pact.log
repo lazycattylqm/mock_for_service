@@ -1,0 +1,70 @@
+I, [2021-04-04T18:46:19.501378 #23275]  INFO -- : Registered expected interaction GET /foobar
+D, [2021-04-04T18:46:19.501613 #23275] DEBUG -- : {
+  "description": "A request to get foo",
+  "providerState": "User foo exists",
+  "request": {
+    "method": "GET",
+    "path": "/foobar",
+    "headers": {
+      "Authorization": "Bearer 1234",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "billy"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "lastName": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "sampson"
+      },
+      "name": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "billy"
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2021-04-04T18:46:19.504615 #23275]  INFO -- : Received request GET /foobar
+D, [2021-04-04T18:46:19.504738 #23275] DEBUG -- : {
+  "path": "/foobar",
+  "query": "",
+  "method": "get",
+  "body": {
+    "name": "billy"
+  },
+  "headers": {
+    "Content-Length": "16",
+    "Content-Type": "application/json",
+    "Host": "localhost:54904",
+    "User-Agent": "Go-http-client/1.1",
+    "Authorization": "Bearer 1234",
+    "Accept-Encoding": "gzip",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-04-04T18:46:19.505114 #23275]  INFO -- : Found matching response for GET /foobar
+D, [2021-04-04T18:46:19.505197 #23275] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "lastName": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "sampson"
+    },
+    "name": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "billy"
+    }
+  }
+}
+I, [2021-04-04T18:46:19.508373 #23275]  INFO -- : Verifying - interactions matched
+I, [2021-04-04T18:46:19.510762 #23275]  INFO -- : Cleared interactions
