@@ -1,0 +1,116 @@
+I, [2021-04-04T19:09:40.218166 #29537]  INFO -- : Registered expected interaction GET /dogs
+D, [2021-04-04T19:09:40.218462 #29537] DEBUG -- : {
+  "description": "a request for dogs",
+  "providerState": "i have a list of dogs",
+  "request": {
+    "method": "GET",
+    "path": "/dogs",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": [
+      {
+        "dog": 1
+      }
+    ]
+  },
+  "metadata": null
+}
+I, [2021-04-04T19:09:40.228806 #29537]  INFO -- : Received request GET /dogs
+D, [2021-04-04T19:09:40.228920 #29537] DEBUG -- : {
+  "path": "/dogs",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.21.1",
+    "Host": "127.0.0.1:59203",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-04-04T19:09:40.229240 #29537]  INFO -- : Found matching response for GET /dogs
+D, [2021-04-04T19:09:40.229301 #29537] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": [
+    {
+      "dog": 1
+    }
+  ]
+}
+I, [2021-04-04T19:09:40.235174 #29537]  INFO -- : Verifying - interactions matched
+I, [2021-04-04T19:09:40.238320 #29537]  INFO -- : Cleared interactions
+I, [2021-04-04T19:09:40.242770 #29537]  INFO -- : Registered expected interaction GET /cats?catId[]=1
+D, [2021-04-04T19:09:40.242877 #29537] DEBUG -- : {
+  "description": "a request for cats with given catId",
+  "providerState": "i have a list of cats",
+  "request": {
+    "method": "GET",
+    "path": "/cats",
+    "query": {
+      "catId[]": {
+        "json_class": "Pact::ArrayLike",
+        "contents": "1",
+        "min": 1
+      }
+    },
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": [
+      {
+        "cat": 2
+      },
+      {
+        "cat": 3
+      }
+    ]
+  },
+  "metadata": null
+}
+I, [2021-04-04T19:09:40.247181 #29537]  INFO -- : Received request GET /cats?catId[]=2&catId[]=3
+D, [2021-04-04T19:09:40.247279 #29537] DEBUG -- : {
+  "path": "/cats",
+  "query": "catId[]=2&catId[]=3",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.21.1",
+    "Host": "127.0.0.1:59203",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-04-04T19:09:40.247532 #29537]  INFO -- : Found matching response for GET /cats?catId[]=1
+D, [2021-04-04T19:09:40.247623 #29537] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": [
+    {
+      "cat": 2
+    },
+    {
+      "cat": 3
+    }
+  ]
+}
+I, [2021-04-04T19:09:40.250885 #29537]  INFO -- : Verifying - interactions matched
+I, [2021-04-04T19:09:40.253725 #29537]  INFO -- : Cleared interactions
+I, [2021-04-04T19:09:40.256917 #29537]  INFO -- : Updating pact for Jest Provider Example at /Users/liqiming/Documents/Project/go/src/github/mock_for_service/pact_node/pact/pacts/jest_consumer_example-jest_provider_example.json

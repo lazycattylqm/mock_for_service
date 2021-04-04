@@ -1,0 +1,71 @@
+{
+  "consumer": {
+    "name": "Jest Consumer Example"
+  },
+  "provider": {
+    "name": "Jest Provider Example"
+  },
+  "interactions": [
+    {
+      "description": "a request for dogs",
+      "providerState": "i have a list of dogs",
+      "request": {
+        "method": "GET",
+        "path": "/dogs",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": [
+          {
+            "dog": 1
+          }
+        ]
+      }
+    },
+    {
+      "description": "a request for cats with given catId",
+      "providerState": "i have a list of cats",
+      "request": {
+        "method": "GET",
+        "path": "/cats",
+        "query": "catId[]=1",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "matchingRules": {
+          "$.query.catId[]": {
+            "min": 1
+          },
+          "$.query.catId[][*].*": {
+            "match": "type"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": [
+          {
+            "cat": 2
+          },
+          {
+            "cat": 3
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

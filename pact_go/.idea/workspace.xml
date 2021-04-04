@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04d775b7-7084-4299-8466-f91f393e67d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../greeter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../greeter/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="04d775b7-7084-4299-8466-f91f393e67d9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +78,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add pact for go" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pact for go" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -98,56 +98,46 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="659" y="194" key="#xdebugger.evaluate/0.25.1792.1095@0.25.1792.1095" timestamp="1617532254027" />
-    <state width="1750" height="364" key="GridCell.Tab.0.bottom" timestamp="1617533082476">
+    <state width="1750" height="364" key="GridCell.Tab.0.bottom" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082476" />
-    <state width="1750" height="364" key="GridCell.Tab.0.center" timestamp="1617533082476">
+    <state width="1750" height="364" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
+    <state width="1750" height="364" key="GridCell.Tab.0.center" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082476" />
-    <state width="1750" height="364" key="GridCell.Tab.0.left" timestamp="1617533082475">
+    <state width="1750" height="364" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
+    <state width="1750" height="364" key="GridCell.Tab.0.left" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082475" />
-    <state width="1750" height="364" key="GridCell.Tab.0.right" timestamp="1617533082476">
+    <state width="1750" height="364" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
+    <state width="1750" height="364" key="GridCell.Tab.0.right" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082476" />
-    <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1617533082477">
+    <state width="1750" height="364" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1617533473506">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082477" />
-    <state width="1750" height="364" key="GridCell.Tab.1.center" timestamp="1617533082476">
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473506" />
+    <state width="1750" height="364" key="GridCell.Tab.1.center" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082476" />
-    <state width="1750" height="364" key="GridCell.Tab.1.left" timestamp="1617533082476">
+    <state width="1750" height="364" key="GridCell.Tab.1.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
+    <state width="1750" height="364" key="GridCell.Tab.1.left" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082476" />
-    <state width="1750" height="364" key="GridCell.Tab.1.right" timestamp="1617533082477">
+    <state width="1750" height="364" key="GridCell.Tab.1.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
+    <state width="1750" height="364" key="GridCell.Tab.1.right" timestamp="1617533473505">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.1.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617533082477" />
+    <state width="1750" height="364" key="GridCell.Tab.1.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617533473505" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/consumer_test.go</url>
-          <line>72</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/consumer_test.go</url>
           <line>22</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/consumer_test.go</url>
-          <line>32</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
