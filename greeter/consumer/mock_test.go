@@ -1,0 +1,47 @@
+package main
+
+import (
+	"context"
+	"fmt"
+	"github.com/golang/mock/gomock"
+	greetMock "liqiming.com.greeter/consumer/mock_greeter"
+	pb "liqiming.com.greeter/proto"
+	"testing"
+)
+
+func TestMock(t *testing.T) {
+	ctl := gomock.NewController(t)
+	defer ctl.Finish()
+	service := greetMock.NewMockGreeterService(ctl)
+	service.EXPECT().SayHi(gomock.Any(), &pb.FromReq{
+		Name: "liqiming",
+	}).Return(&pb.ResMsg{
+		Name: "mock",
+	}, nil)
+	hi, err := service.SayHi(
+		context.Background(), &pb.FromReq{
+			Name: "liqiming",
+		},
+	)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(hi.Name)
+
+	service.EXPECT().SayHi(gomock.Any(), gomock.Any()).Return(&pb.ResMsg{
+		Name: "23444",
+	}, nil)
+	hi, err = service.SayHi(
+		context.Background(), &pb.FromReq{
+			Name: "1243",
+		},
+	)
+
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(hi.Name)
+
+}

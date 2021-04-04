@@ -11,11 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3364e57-354c-4093-b21b-4d6513b84cd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/greet.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/hello.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/handler/handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/mock/greetMock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/mock_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +118,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add greeter service fo go" />
+    <option name="LAST_COMMIT_MESSAGE" value="add greeter service fo go" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -136,22 +138,22 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="659" y="194" key="#xdebugger.evaluate/0.25.1792.1095@0.25.1792.1095" timestamp="1617530564592" />
-    <state width="1750" height="364" key="GridCell.Tab.0.bottom" timestamp="1617530589730">
+    <state width="1750" height="296" key="GridCell.Tab.0.bottom" timestamp="1617530953442">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
-    <state width="1750" height="364" key="GridCell.Tab.0.center" timestamp="1617530589730">
+    <state width="1750" height="296" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617530953442" />
+    <state width="1750" height="296" key="GridCell.Tab.0.center" timestamp="1617530953442">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
-    <state width="1750" height="364" key="GridCell.Tab.0.left" timestamp="1617530589730">
+    <state width="1750" height="296" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617530953442" />
+    <state width="1750" height="296" key="GridCell.Tab.0.left" timestamp="1617530953441">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
-    <state width="1750" height="364" key="GridCell.Tab.0.right" timestamp="1617530589730">
+    <state width="1750" height="296" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617530953441" />
+    <state width="1750" height="296" key="GridCell.Tab.0.right" timestamp="1617530953442">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1750" height="364" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
+    <state width="1750" height="296" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617530953442" />
     <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1617530589731">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>

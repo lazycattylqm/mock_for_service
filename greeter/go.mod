@@ -8,4 +8,5 @@ require (
 	github.com/golang/protobuf v1.4.2
 	golang.org/x/sys v0.0.0-20200523222454-059865788121 // indirect
 	google.golang.org/protobuf v1.23.0
+
 )
