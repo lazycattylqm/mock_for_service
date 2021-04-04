@@ -1,0 +1,14 @@
+syntax="proto3";
+
+package greeter;
+
+service Greeter {
+  rpc SayHi(FromReq) returns (ResMsg) {}
+}
+message FromReq {
+  string name = 1;
+}
+
+message ResMsg {
+  string name = 2;
+}

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3364e57-354c-4093-b21b-4d6513b84cd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/consumer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/greet.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/handler/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../../go1.16.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1qhLHQr3JN3lqjCuIcDWaj5Z9YL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/proto" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/provider/handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build liqiming.com.greeter/consumer">
+    <configuration name="go build liqiming.com.greeter/consumer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="greeter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/consumer/main.go" />
+      <package value="liqiming.com.greeter/consumer" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build liqiming.com.greeter/provider" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="greeter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/provider/main.go" />
+      <package value="liqiming.com.greeter/provider" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="greeter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/provider/main.go" />
+      <package value="liqiming.com.greeter" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="greeter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/provider/main.go" />
+      <package value="liqiming.com.greeter" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build liqiming.com.greeter/consumer" />
+        <item itemvalue="Go Build.go build liqiming.com.greeter/provider" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="231" width="1071" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617530277839">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="360" y="231" width="1071" height="722" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1617530277839" />
+    <state x="615" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617528271224">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="615" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1617528271224" />
+    <state x="659" y="194" key="#xdebugger.evaluate" timestamp="1617530564592">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="659" y="194" key="#xdebugger.evaluate/0.25.1792.1095@0.25.1792.1095" timestamp="1617530564592" />
+    <state width="1750" height="364" key="GridCell.Tab.0.bottom" timestamp="1617530589730">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
+    <state width="1750" height="364" key="GridCell.Tab.0.center" timestamp="1617530589730">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
+    <state width="1750" height="364" key="GridCell.Tab.0.left" timestamp="1617530589730">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
+    <state width="1750" height="364" key="GridCell.Tab.0.right" timestamp="1617530589730">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589730" />
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom" timestamp="1617530589731">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589731" />
+    <state width="1750" height="364" key="GridCell.Tab.1.center" timestamp="1617530589731">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.center/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589731" />
+    <state width="1750" height="364" key="GridCell.Tab.1.left" timestamp="1617530589731">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.left/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589731" />
+    <state width="1750" height="364" key="GridCell.Tab.1.right" timestamp="1617530589731">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="364" key="GridCell.Tab.1.right/0.25.1792.1095@0.25.1792.1095" timestamp="1617530589731" />
+    <state x="405" y="208" key="SettingsEditor" timestamp="1617529734319">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="405" y="208" key="SettingsEditor/0.25.1792.1095@0.25.1792.1095" timestamp="1617529734319" />
+    <state x="598" y="311" width="595" height="522" key="find.popup" timestamp="1617527815616">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="598" y="311" width="595" height="522" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1617527815616" />
+  </component>
+</project>
