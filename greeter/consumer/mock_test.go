@@ -13,11 +13,11 @@ func TestMock(t *testing.T) {
 	ctl := gomock.NewController(t)
 	defer ctl.Finish()
 	service := greetMock.NewMockGreeterService(ctl)
-	service.EXPECT().SayHi(gomock.Any(), &pb.FromReq{
+	service.EXPECT().SayHi(gomock.Any(), &pb.FromReq{ // 这里可用任何入参表明mock结果
 		Name: "liqiming",
-	}).Return(&pb.ResMsg{
+	}).Return(&pb.ResMsg{ // return 我们要的结果
 		Name: "mock",
-	}, nil)
+	}, nil) // 这里可
 	hi, err := service.SayHi(
 		context.Background(), &pb.FromReq{
 			Name: "liqiming",
